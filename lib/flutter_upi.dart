@@ -9,6 +9,9 @@ class FlutterUpiApps {
   static const String BHIMUPI = "in.org.npci.upiapp";
   static const String PHONEPE = "com.phonepe.app";
   static const String MiPay = "com.mipay.wallet.in";
+  static const String AmazonPay = "in.amazon.mShop.android.shopping";
+  static const String TrueCallerUPI = "com.truecaller";
+  static const String MyAirtelUPI = "com.myairtelapp";  
 }
 
 class FlutterUpiResponse {
