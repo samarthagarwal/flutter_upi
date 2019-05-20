@@ -1,6 +1,6 @@
 name: flutter_upi
 description: A flutter plugin to invoke UPI apps on the phone for Android.
-version: 0.0.1
+version: 0.0.2
 author: Samarth Agarwal <samarthagarwal@live.com>
 homepage: https://github.com/samarthagarwal/flutter_upi
 

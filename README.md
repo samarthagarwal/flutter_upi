@@ -53,15 +53,34 @@ print(flutterUpiResponse.responseCode); //prints the response code
 As of now the plugin only supports Android. Since I am not an iOS developer, I have only been able to write the code for Android. If you are interested, feel free to get in touch or create PR if you can do this for iOS as well.
 
 The plugins supports three apps as of now which I have tested this plugin with. You can use the predefined constants in the `FlutterUpiApps` class and pass it to the `app` named argument in the `initiateTransaction` method.
+
 `FlutterUpiApps.BHIMUPI` will launch the BHIM UPI App 
+
 `FlutterUpiApps.GooglePay` will launch the GooglePay App
+
+`FlutterUpiApps.PayTM` will launch the PayTM App
+
+`FlutterUpiApps.PhonePe` will launch the PhonePe App
+
+`FlutterUpiApps.MiPay` will launch the MiPay App
+
+`FlutterUpiApps.AmazonPay` will launch the AmazonPay App
+
+`FlutterUpiApps.TrueCallerUPI` will launch the TrueCallerUPI App
+
+`FlutterUpiApps.MyAirtelUPI` will launch the MyAirtelUPI App
 
 ## Error Responses
 The `response` String can contain any of the following strings as well.
+
 `app_not_installed` : Application not installed.
+
 `invalid_params` : Request parameters are wrong.
+
 `user_canceled` : User canceled the flow.
+
 `null_response` : No data received.
+
 
 You need to write your own code to handle these responses in your app. Check out the example folder for more implementation details.
 
