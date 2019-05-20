@@ -30,7 +30,7 @@ class FlutterUpiResponse {
         responseCode = value;
       } else if (key == "ApprovalRefNo") {
         ApprovalRefNo = value;
-      } else if (key == "Status") {
+      } else if (key.toLowerCase() == "status") {
         Status = value;
       } else if (key == "txnRef") {
         txnRef = value;
